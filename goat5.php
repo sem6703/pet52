@@ -6,7 +6,7 @@ header ("Content-Type: text/html; charset=utf-8");
 if (isset($_GET['act'])){$t = $_GET['act'];}
 
 
-$cu=mysqli_connect("127.0.0.1","root","","pet2");
+$cu=mysqli_connect("127.0.0.1","root","","pet3");
 if (!$cu)
 	{
 		echo 'база ноу коннект';	
